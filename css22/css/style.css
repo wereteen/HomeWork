@@ -1,0 +1,9 @@
+.content-1__block {
+  box-sizing: border-box;
+  padding: 25px 25px 0px;
+  width: 50vw;
+  max-height: 100px;
+  background-color: aqua;
+  overflow: scroll;
+  font-family: 'Source Serif Pro', serif;
+} 
