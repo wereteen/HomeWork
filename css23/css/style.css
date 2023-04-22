@@ -1,0 +1,44 @@
+.wrapper {
+  padding: 100px 100px 30vh;
+  height: 100vh;
+}
+
+.block { 
+  height: 100%;
+  box-shadow:10px 5px 5px black;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+.block {
+  background:url(/images/scorp.png) center no-repeat, linear-gradient(rgb(255, 255, 255) 75%, yellow 15%, rgb(255, 0, 0));
+
+
+  
+
+}
+
+.wrapper_1 {
+  padding: 100px 100px 30vh;
+  height: 100vh;
+}
+
+.block_1 { 
+  height: 100%;
+  box-shadow:10px 5px 5px black;
+  border-radius: 5px;
+}
+
+.block_1 {
+  background-image: url(/images/pihpoh.jpg), linear-gradient(red, violet);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  background-attachment: center;
+  
+}
+  
