@@ -1,0 +1,19 @@
+/* .border__block {
+  border: 5px solid black;
+  transition: border-color 3s 2s;
+}
+
+.border__block:hover {
+  border-color: rgb(236, 103, 41);
+}
+ */
+
+.border__block {
+  border: 5px solid black;
+  transition-duration:3s;
+  transition-delay:2s;
+}
+
+.border__block:hover {
+  border-color: rgb(236, 103, 41);
+}
