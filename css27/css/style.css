@@ -1,0 +1,25 @@
+.text	{
+  margin: 0;
+  padding: 0;
+	font-size: 60px;
+	color:white;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	background: repeating-linear-gradient(-45deg, red 50%, black 80%);
+	background-size: 500vw 500vw;
+  animation: ani 2s linear infinite forwards;
+	-webkit-text-fill-color:transparent ;
+	-webkit-background-clip: text  ;
+
+}
+
+
+@keyframes ani {
+  0% {
+  background-position-x: 0%;
+  } 
+	100% {
+  background-position-x: 500vw;
+	}
+}
