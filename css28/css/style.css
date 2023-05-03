@@ -1,0 +1,29 @@
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  padding: 50px;
+  height: 100%;
+}
+
+.flexbox {
+  border: 20px solid rgb(0, 0, 0);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.flexbox__item {
+  border: 20px solid rgb(215, 207, 218);
+  flex-basis: 20%;
+}
+
+.flexbox__item-content {
+  background-color: rgb(94, 94, 110);
+  text-align: center;
+  padding: 50px;
+  font-size: 3rem;
+}
